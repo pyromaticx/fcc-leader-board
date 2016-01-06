@@ -19435,27 +19435,27 @@ var Camper = React.createClass({
       ),
       React.createElement(
         "div",
-        { className: "col-xs-1 text-right" },
+        { className: "col-xs-1 text-center" },
         this.props.data.total
       ),
       React.createElement(
         "div",
-        { className: "col-xs-1 text-right" },
+        { className: "col-xs-1 text-center" },
         this.props.data.totalRecent
       ),
       React.createElement(
         "div",
-        { className: "col-xs-1 col-xs-offset-1 text-right" },
+        { className: "col-xs-1 col-xs-offset-1 text-center" },
         this.props.data.basejumps
       ),
       React.createElement(
         "div",
-        { className: "col-xs-1 col-xs-offset-1 text-right" },
+        { className: "col-xs-1 col-xs-offset-1 text-center" },
         this.props.data.ziplines
       ),
       React.createElement(
         "div",
-        { className: "col-xs-1 col-xs-offset-1 text-right" },
+        { className: "col-xs-1 col-xs-offset-1 text-center" },
         this.props.data.bonfires
       )
     );
@@ -19594,13 +19594,13 @@ var Leaderboard = React.createClass({
     };
     return React.createElement(
       'div',
-      null,
+      { className: 'well' },
       React.createElement(
         'div',
-        { className: 'col-xs-12 row' },
+        { className: 'row' },
         React.createElement(
           'button',
-          { onClick: this.changeRecords, className: 'col-xs-6 col-xs-offset-3 btn btn-primary switch' },
+          { onClick: this.changeRecords, className: 'col-xs-4 col-xs-offset-4 btn btn-primary switch' },
           this.state.currentDataTitle
         )
       ),

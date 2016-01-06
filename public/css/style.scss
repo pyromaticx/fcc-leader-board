@@ -1,6 +1,6 @@
-$headerColor: rgba(90,200,200,0.8);
-$headerFontColor: #ccc;
-$contentBG: #ccc;
+$headerColor: rgba(230,100,100,0.8);
+$headerFontColor: #eee;
+$contentBG: rgba(230,100,100,0.4);;
 $textShadow: -5px -2px 5px #333;
 $headerFont: Lobster;
 body {
@@ -21,7 +21,7 @@ body {
   font-family: Helvetica;
   color: #222;
   min-height: 100vh;
-  
+
   background-color: $contentBG;
   text-shadow: none;
   p {

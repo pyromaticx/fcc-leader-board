@@ -47,9 +47,9 @@ var Leaderboard = React.createClass({
       totalRecent: (<button className='btn btn-default btn-xs' id="totalRecent" onClick={this.sortBased}>Recent</button>)
     };
     return (
-      <div>
-      <div className='col-xs-12 row'>
-        <button onClick={this.changeRecords} className='col-xs-6 col-xs-offset-3 btn btn-primary switch'>
+      <div className='well'>
+      <div className='row'>
+        <button onClick={this.changeRecords} className='col-xs-4 col-xs-offset-4 btn btn-primary switch'>
           {this.state.currentDataTitle}
         </button>
       </div>

@@ -12,19 +12,19 @@ var Camper = React.createClass({
           {this.props.data.img ? (<img src={this.props.data.img} className='camperIcon' />) : ''}
           {this.props.data.username}
         </div>
-        <div className="col-xs-1 text-right">
+        <div className="col-xs-1 text-center">
           {this.props.data.total}
         </div>
-        <div className="col-xs-1 text-right">
+        <div className="col-xs-1 text-center">
           {this.props.data.totalRecent}
         </div>
-        <div className="col-xs-1 col-xs-offset-1 text-right">
+        <div className="col-xs-1 col-xs-offset-1 text-center">
           {this.props.data.basejumps}
         </div>
-        <div className="col-xs-1 col-xs-offset-1 text-right">
+        <div className="col-xs-1 col-xs-offset-1 text-center">
           {this.props.data.ziplines}
         </div>
-        <div className="col-xs-1 col-xs-offset-1 text-right">
+        <div className="col-xs-1 col-xs-offset-1 text-center">
           {this.props.data.bonfires}
         </div>
 
